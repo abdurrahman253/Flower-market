@@ -415,27 +415,29 @@
 
       <!--Join Section-->
       <section
-        class="w-full h-[267px] bg-[url('./assets/news-letter-bg.png')] bg-cover bg-center my-10 flex justify-center items-center sm:h-[533px]"
+        class="w-full h-[276px] sm:h-[533px] flex items-center justify-center bg-[url('./assets/news-letter-bg.png')] bg-cover bg-center"
       >
-        <div class="w-full px-4 max-w-md md:max-w-xl lg:max-w-4xl">
+        <div
+          class="w-full px-4 mx-auto max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-4xl"
+        >
           <h3
-            class="text-[#FFFFFF] font-bold text-[20px] noto_serif text-center sm:text-[50px]"
+            class="text-white font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-6 md:mb-10"
           >
             Join the colorful Bunch
           </h3>
-          <form class="mt-6 flex flex-row">
+          <form class="flex w-full justify-center">
             <input
               type="email"
-              name=""
-              id=""
               placeholder="Write email"
-              class="p-3 flex-1 bg-[#FFFFFF] text-[1rem] text-[#00000093]"
+              required
+              class="flex-1 p-4 sm:p-5 md:p-6 bg-white text-gray-800 focus:outline-none text-sm sm:text-base md:text-lg"
             />
-            <input
-              type="button"
-              value="Subscribe"
-              class="bg-[#E95A08] py-3 px-6 text-[1rem] text-[#FFFFFF] font-semibold"
-            />
+            <button
+              type="submit"
+              class="bg-[#E95A08] px-6 sm:px-8 md:px-10 text-white font-semibold hover:bg-[#d14f07] transition-colors text-sm sm:text-base md:text-lg"
+            >
+              Subscribe
+            </button>
           </form>
         </div>
       </section>
